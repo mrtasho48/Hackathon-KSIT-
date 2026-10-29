@@ -1,3 +1,5 @@
+import os
+os.system("playwright install chromium")
 import streamlit as st
 from openai import OpenAI
 from agno.agent import Agent as AgnoAgent
